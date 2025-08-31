@@ -24,7 +24,7 @@ final public class UserProfile {
         this.github = builder.github;
     }
 
-    static class Builder {
+    public static class Builder {
         private String id;
         private String email;
         private String phone;
